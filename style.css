@@ -1,3 +1,38 @@
+/* ======================= */
+/* Initializing Stylesheet */
+/* ======================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  vertical-align: bottom;
+}
+
+
+/* ============================= */
+/* Media Query For Tablet Device */
+/* ============================= */
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  /* some */
+}
+
+
+
+/* ============================= */
+/* Media Query For Mobile Device */
+/* ============================= */
+@media only screen and (max-width: 425px) {
+  /* some */
 }
